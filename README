@@ -1,1 +1,11 @@
-See bdffont1.txt
+# Figlet Fonts Showcase Library
+
+- To generate **HTML** listing run `make`
+- To generate **PLAIN** listing run `make plain`
+
+The makefile uses the
+
+- `generate-html-listing`
+- `generate-plain`
+
+files respectively
