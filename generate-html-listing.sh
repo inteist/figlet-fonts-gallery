@@ -1,9 +1,14 @@
 #bin/sh
 
+echo "<h2>"
+ls | grep -E '.*\.flf$' | wc -l
+echo " Fonts in the Gallery</h2>"
+
+
 echo '<div class="tag-links-list">'
 for file in *.flf
 do
-    echo '<a href="#'$file'" <span style="font-size: .6rem;">' $file '</span></a>&nbsp;&nbsp;'
+    echo '<a href="#'$file'" <span style="font-size: .7rem;">' $file '</span></a>&nbsp;&nbsp;'
 done
 echo '</div>'
 
