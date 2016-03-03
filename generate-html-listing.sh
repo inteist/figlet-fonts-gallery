@@ -19,6 +19,6 @@ do
     echo
     echo '<h3 id="'$file'">' $file '</h3>'
     echo "<pre>"
-    figlet -f $file -w 400 Sample
+    figlet -f "$file" -w 2400 Sample
     echo "</pre>"
 done
